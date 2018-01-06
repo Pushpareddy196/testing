@@ -10,7 +10,7 @@ function readTextFile(file, callback) {
                 rawFile.send(null);
             }
 
-            readTextFile("https://pushpareddy196.github.io/testing/orders.json", function (text) {
+            readTextFile("https://pushpareddy196.github.io/testing/pizzasList.json", function (text) {
                 var data = JSON.parse(text);
                 data = data["list"];
                 console.log(data);
