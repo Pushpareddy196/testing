@@ -116,8 +116,9 @@
                     $.ajax({
                         type: 'POST',
                         url: "https://sg2nwvpweb038.shr.prod.sin2.secureserver.net:8443/smb/file-manager/show?file=Save_Order_json.php",
-                        username: 70749917,
-                        password: "Axelta321$%",
+                         headers: {
+        "Authorization": "Basic " + IDcwNzQ5OTE3IEF4ZWx0YTMyMSQl
+    },
                         data: {'neworder': convertTableToJson()},
                         async: false,
                         success: function () {
