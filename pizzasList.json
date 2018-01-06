@@ -1,0 +1,28 @@
+{
+    "list": [
+        {
+            "name": "NON VEG SUPREME",
+            "toppingsDescription": "Black Olives | Onion |  Capsicum | Grilled Mushroom | Peri Peri Chicken | Chicken Rashers | Pepper Barbecue Chicken",
+            "image": "https://l1.pizzainindia.com/assets/osc/ABAAA/images/products/originals/Non-Veg-Supreme.jpg",
+            "price": 550
+        },
+        {
+            "name": "CHICKEN GOLDEN DELIGHT",
+            "toppingsDescription": "Double Pepper Barbecue Chicken | Goldern Corn  | Extra Cheese",
+            "image": "https://l1.pizzainindia.com/assets/osc/ABAAA/images/products/originals/golden.png",
+            "price": 600
+        },
+        {
+            "name": "DELUXE VEGGIE",
+            "toppingsDescription": "Onion | Capsicum | Grilled Mushroom | Golden Corn  | Paneer",
+            "image": "https://l1.pizzainindia.com/assets/osc/ABAAA/images/products/originals/deluxeveg.png",
+            "price": 500
+        },
+        {
+            "name": "VEG EXTRAVAGANZA",
+            "toppingsDescription": "Black Olives | Onion | Capsicum | Grilled Mushroom | Tomato | Golden Corn | Jalapeno  | Extra Cheese",
+            "image": "https://l1.pizzainindia.com/assets/osc/ABAAA/images/products/originals/vegextra.png",
+            "price": 500
+        }
+    ]
+}
