@@ -118,7 +118,8 @@
                        type: 'POST',
                        url: "https://sg2nwvpweb038.shr.prod.sin2.secureserver.net:8443/smb/file-manager/show?file=Save_Order_json.php",
                        data: {'neworder': convertTableToJson(),"jsonurl":"https://pushpareddy196.github.io/wsdmpizza/orders.json"},
-                        async: false,
+                        headers: {"Authorization": "Basic NzA3NDk5MTc6QXhlbHRhMzIxJCU="},
+                         async: false,
                        success: function () {
                             $("#successmodal").modal("show");
                         }
